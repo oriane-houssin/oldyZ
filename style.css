@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(45deg, rgb(62, 195, 219), rgb(255, 224, 150));
+	background: linear-gradient(45deg, #4b3201, #ddcba9);
 	background-repeat: no-repeat;
 	background-size:100%;
 	color: white;
@@ -8,9 +8,12 @@ body {
 	padding: 300px 0px 300px 0px;
 	background-size: 100%;
 	text-align:center;
+	background: linear-gradient(45deg, #7d553b, #ddcba9);
+	background-repeat: no-repeat;
+	background-size:100%;
 }
 .menu > h1{
-	font-family: "Titre";
+	font-family: "Forum";
 	font-size: 100px;
 }
 img{
@@ -22,6 +25,12 @@ img{
 	text-align: center;
 	font-family: "Titre";
 	font-size: 30px;
+}
+.oldy{
+	color: aliceblue;
+}
+.text-dark{
+	color: #4b3201;
 }
 .bg-darkgrey
 {
