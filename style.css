@@ -1,0 +1,98 @@
+body {
+	background: linear-gradient(45deg, rgb(62, 195, 219), rgb(255, 224, 150));
+	background-repeat: no-repeat;
+	background-size:100%;
+	color: white;
+}
+.menu{
+	padding: 300px 0px 300px 0px;
+	background-size: 100%;
+	text-align:center;
+}
+.menu > h1{
+	font-family: "Titre";
+	font-size: 100px;
+}
+img{
+	align-self: center;
+}
+.title
+{
+	align-self: center;
+	text-align: center;
+	font-family: "Titre";
+	font-size: 30px;
+}
+.bg-darkgrey
+{
+	background-color: #333;
+}
+.row
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.bg-img-1
+{
+	background: url("https://th.bing.com/th/id/R.8a513b70c2d535bd43b871a4d3acfa3d?rik=e4CPGRhNd1gOUA&riu=http%3a%2f%2f2017.igem.org%2fwiki%2fimages%2fd%2fdf%2fT--Exeter--logo_team_members.png&ehk=6FrFKaNx2hCwXYIUxSPMUNSY5KFuVfRFM11YM%2bMVKCQ%3d&risl=&pid=ImgRaw&r=0");
+	height: 300px;
+	background-position: center;
+    width:50%;
+}
+.bg-img-2
+{
+	background: url("https://www.marketingtactics.fr/wp-content/uploads/2019/06/A4P1-1320x1093.jpg");
+	height: 300px;
+	background-position: center;
+    width: 50%;
+}
+.bg-img-3
+{
+	background: url("https://i0.wp.com/selp.eu/wp-content/uploads/2015/06/yotonor-subscription.jpg?fit=1378%2C1378&ssl=1");
+	height: 300px;
+	background-position: left;
+    width:50%;
+}
+.galerie
+.bandeau
+{
+	width: 100%;
+	height: 100px;
+	align-content: center;
+	background-color: #000A;
+	color: white;
+}
+.galerie img
+{
+	width: 100%;
+}
+.bandeau > ul
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 10px;
+	font-size: 55px;
+	align-content: center;
+	text-align: center;
+	align-self: center;
+	align-items: center;
+	font-family: "Band";
+}
+
+footer {
+    text-align: center ;
+    
+}
+
+@font-face {
+ font-family: "Titre";
+ src: url("earthorbiter.ttf");
+}
+@font-face {
+ font-family: "Band";
+ src: url("TESLA.ttf");
+}
+
