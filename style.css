@@ -1,7 +1,5 @@
 body {
-	background: linear-gradient(45deg, #4b3201, #ddcba9);
-	background-repeat: no-repeat;
-	background-size:100%;
+	background: #7d553b;
 	color: white;
 }
 header{
@@ -23,9 +21,12 @@ header>nav>a{
 	color: #4b3201;
 	padding: 120px;
 }
-header >nav> a:hover{
+header>nav>a:hover{
 	text-decoration: underline;
 	color: #4b3201;
+}
+header>nav>a>img{
+	width: 30px;
 }
 .page1{
 	padding: 300px 0px 300px 0px;
@@ -118,12 +119,4 @@ footer {
     
 }
 
-@font-face {
- font-family: "Titre";
- src: url("earthorbiter.ttf");
-}
-@font-face {
- font-family: "Band";
- src: url("TESLA.ttf");
-}
 
