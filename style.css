@@ -4,6 +4,18 @@ body {
 	background-size:100%;
 	color: white;
 }
+header{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+header > .logoOldyz{
+	width: 100px;
+	background-color: transparent;
+}
+a{
+	text-decoration: none;
+	color: #4b3201;
+}
 .page1{
 	padding: 300px 0px 300px 0px;
 	background-size: 100%;
