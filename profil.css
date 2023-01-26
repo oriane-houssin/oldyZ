@@ -166,32 +166,15 @@ nav{
   }
   
 
-/*footer*/
-footer{
-  display: grid !important;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: #08605F;
+footer {
+    text-align: center ;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	font-family: "Titre";
 }
-.foot{
-  list-style-type: disc;  
+footer h2{
+	font-size: 70px;
 }
-.foot li{
-  color: white;
-  font-size: 20px;
-}
-.foot li a{
-  color: white;
-  animation: 0.5s;
-}
-footer div{
-  padding-left: 10px;
-  padding-right: 10px;
-}
-footer div span{
-  font-size: 2em;
-  color: white;
-  text-decoration: underline;
-}
-.foot li a:hover{
-  text-decoration: underline;
+footer h3{
+	font-size: 30px;
 }
