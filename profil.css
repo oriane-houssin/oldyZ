@@ -10,56 +10,31 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-/*header*/
-header nav {
-  margin: 30px;
-}
-
-header nav ul {
-  overflow: auto;
-  list-style-type: none;
-}
-
-header nav ul li {
-  height: 26px;
-  float: left;
-  margin-right: 0px;
-  border-right: 1px solid #aaa;
-  padding: 0 20px;
-}
-
-header nav ul li:last-child {
-  border-right: none;
-}
-
-header nav ul li a {
-  text-decoration: none;
-  color: #ccc !important;
-  font: 25px/1 Helvetica, Verdana, sans-serif;
-  text-transform: uppercase;
-
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-header nav ul li a:hover {
-  color: #666!important;
-  text-decoration: none!important;
-}
-
-header nav ul li.active a {
-  font-weight: bold;
-  color: #333!important;
-}
 header{
-  display: flex!important;
-  width: 100%;
-  justify-content: space-between;
-  background-color: #08605F;
-  height: 80px;
+	background-color: transparent;
+	position: fixed;
+	width: 100%;
+	text-align: right;
+	padding-top: 40px;
+
+}
+header > .logoOldyz{
+	margin-top: -10px;
+	padding-left: 25px;
+	width: 75px;
+	float: left;
+}
+header>nav>a{
+	text-decoration: none;
+	color: #4b3201;
+	padding: 120px;
+}
+header>nav>a:hover{
+	text-decoration: underline;
+	color: #4b3201;
+}
+header>nav>a>img{
+	width: 30px;
 }
 .logo{
   display: block;
