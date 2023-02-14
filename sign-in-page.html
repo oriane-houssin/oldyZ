@@ -3,72 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Page d'Enregistrement</title>
-    <link rel="stylesheet" href="register.css">
+    <title>Se connecter</title>
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="sign-in.css">
     <link rel="shortcut icon" href="logo sans fond oldyz.png" type="image/x-icon">
 </head>
-<div class="signupFrm">
-    <form action="" class="form">
-        <h1 class="title">S'enregistrer</h1>
-
-        <div class="inputContainer">
-            <input type="text" class="input" placeholder="a" required>
-            <label for="" class="label">Email</label>
-        </div>
-
-        <div class="inputContainer">
-            <input type="text" class="input" placeholder="a" required>
-            <label for="" class="label">NOM | Prenom</label>
-        </div>
-
-        <div class="inputContainer">
-            <input type="number" class="input" placeholder="a" min="0" required>
-            <label for="" class="label">Numéro de téléphone</label>
-        </div>
-
-        <div class="inputContainer">
-            <input type="password" class="input" placeholder="a" id="password" required>
-            <label for="" class="label">Mot de passe</label>
-        </div>
-
-        <div class="inputContainer">
-            <input type="password" class="input" placeholder="a" id="password-confirm" required>
-            <label for="" class="label">Confirmer le mot de passe</label>
-        </div>
-        
-        <script>
-            function showErrorPopup(message) {
-                const popup = document.createElement("div");
-                popup.style.backgroundColor = "red";
-                popup.style.color = "white";
-                popup.style.padding = "10px";
-                popup.style.position = "fixed";
-                popup.style.top = "10px";
-                popup.style.right = "10px";
-                popup.innerHTML = message;
-                document.body.appendChild(popup);
-            }
-
-            const passwordInput = document.getElementById("password");
-            const passwordConfirmInput = document.getElementById("password-confirm");
-            const form = document.querySelector("form");
-
-            form.addEventListener("submit", function (event) {
-                if (passwordInput.value !== passwordConfirmInput.value) {
-                    showErrorPopup("Les mots de passe ne correspondent pas !");
-                    event.preventDefault();
-                }
-            });
-        </script>
-
-        <input type="submit" class="submitBtn" value="Soumettre">
-    </form>
-</div>
 
 <body>
 
+
+    <div class="login-wrapper">
+        <form action="" class="form">
+            <h2> Connexion </h2>
+            <div class="input-group">
+                <input type="text" name="loginUser" id="loginUser" required />
+                <label for="loginUser"> Identifiant</label>
+            </div>
+            <div class="input-group">
+                <input type="password" name="loginPassword" id="loginPassword" required />
+                <label for="loginPassword">Mot de passe</label>
+            </div>
+            <div class="bouton_anime">
+                <input type="submit" value="Envoyer" class="submit-btn" />
+
+                <ul class="nav-links">
+                    <li> <a href="register.html" target="_blank"> Pas encore de compte ? </a></li>
+                </ul>
+
+            </div>
+        </form>
+    </div>
+
+    </div>
 </body>
 
 </html>
