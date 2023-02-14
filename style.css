@@ -8,6 +8,7 @@ header{
 	width: 100%;
 	text-align: right;
 	padding-top: 40px;
+	z-index: 9;
 
 }
 header > .logoOldyz{
@@ -39,6 +40,37 @@ header>nav>a>img{
 	font-family: "Forum";
 	font-size: 100px;
 }
+
+/*CARROUSEL*/
+
+.section-carrousel{
+	padding: 160px 0px 160px 0px;
+}
+.carrousel{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 160px 30px 160px 30px;
+	align-items: center;
+}
+
+.carrousel > div{
+	width: 400px;
+	align-items: center;
+}
+
+.carrousel > div > img{
+	width: 400px;
+	padding-left: 10px;
+}
+
+.section-carrousel > h2{
+	text-align: center;
+	font-family: "Titre";
+	font-size: 30px;
+}
+
+
+
 img{
 	align-self: center;
 }
@@ -159,6 +191,9 @@ li{
 	text-align: left;
 	padding-left: 65px;
 }
-::marker{
-	display: none;
+
+.nav-footer{
+	text-align: center;
+	margin-bottom: 10px;
+	padding-left: 0;
 }
