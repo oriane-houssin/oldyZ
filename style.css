@@ -69,26 +69,22 @@ img{
 .bg-2{
 	background-color: #ddcba9;
 }
-.bg-img-1
-{
-	background: url("https://th.bing.com/th/id/R.8a513b70c2d535bd43b871a4d3acfa3d?rik=e4CPGRhNd1gOUA&riu=http%3a%2f%2f2017.igem.org%2fwiki%2fimages%2fd%2fdf%2fT--Exeter--logo_team_members.png&ehk=6FrFKaNx2hCwXYIUxSPMUNSY5KFuVfRFM11YM%2bMVKCQ%3d&risl=&pid=ImgRaw&r=0");
-	height: 300px;
-	background-position: center;
-    width:50%;
+
+.col-8{
+	padding: 0;
+	margin-top: -24px;
 }
-.bg-img-2
-{
-	background: url("https://www.marketingtactics.fr/wp-content/uploads/2019/06/A4P1-1320x1093.jpg");
-	height: 300px;
-	background-position: center;
-    width: 50%;
+
+.cibles-img{
+	width:982px;
 }
-.bg-img-3
-{
-	background: url("https://i0.wp.com/selp.eu/wp-content/uploads/2015/06/yotonor-subscription.jpg?fit=1378%2C1378&ssl=1");
-	height: 300px;
-	background-position: left;
-    width:50%;
+
+.adhesion-img{
+	padding-top: 24px;
+}
+
+.confiance-img{
+	margin-top: -13px;
 }
 .galerie
 .bandeau
@@ -133,12 +129,16 @@ footer {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	font-family: "Titre";
+	padding-top: 35px;
+	background-color: #201600;
 }
 footer h2{
 	font-size: 70px;
+	padding-top: 95px;
 }
 footer h3{
 	font-size: 30px;
+	margin-bottom: 40px;
 }
 footer img{
 	scale: 0.1;
@@ -152,8 +152,12 @@ footer a:hover{
 	text-decoration: underline #ddcba9;
 	color: #ddcba9;
 }
+ul{
+	list-style-type: none;
+}
 li{
-	text-decoration: none;
+	text-align: left;
+	padding-left: 65px;
 }
 ::marker{
 	display: none;
