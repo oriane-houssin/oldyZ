@@ -152,3 +152,9 @@ footer a:hover{
 	text-decoration: underline #ddcba9;
 	color: #ddcba9;
 }
+li{
+	text-decoration: none;
+}
+::marker{
+	display: none;
+}
