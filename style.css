@@ -45,12 +45,15 @@ header>nav>a>img{
 
 .section-carrousel{
 	padding: 160px 0px 160px 0px;
+	border-top: #ddcba9 solid;
+	border-bottom: #ddcba9 solid;
 }
 .carrousel{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	padding: 160px 30px 160px 30px;
 	align-items: center;
+	margin-left: 55px;
 }
 
 .carrousel > div{
@@ -67,6 +70,14 @@ header>nav>a>img{
 	text-align: center;
 	font-family: "Titre";
 	font-size: 30px;
+}
+
+.carrousel_img{
+	transition-duration: 0.5s;
+}
+
+.carrousel_img:hover{
+	transform: scale(1.2);
 }
 
 
